@@ -83,16 +83,13 @@ class SQLIRSSLocalImportHandler extends SQLIImportAbstractHandler implements ISQ
         // $row is a SimpleXMLElement object
         $this->currentGUID = $row->guid;
         $contentOptions = new SQLIContentOptions( array(
-            'class_identifier'      => 'article',
+            'class_identifier'      => 'testimport',
             'remote_id'             => (string)$row->guid
         ) );
         $content = SQLIContent::create( $contentOptions );
         $content->fields->title = (string)$row->title;
-        $content->fields->author = (string)$row->author.'|noreply@sqli.com|-1'; // @see eZAuthorType::fromString()
-        
-        // Handle HTML content
-        $content->fields->intro = $this->getRichContent( (string)$row->description ); // Proxy method to SQLIContentUtils::getRichContent()
-        
+        $content->fields->content = $this->getRichContent( (string)$row->description );
+
         // Now publish content
         $content->addLocation( SQLILocation::fromNodeID( $this->handlerConfArray['DefaultParentNodeID'] ) );
         $publisher = SQLIContentPublisher::getInstance();
