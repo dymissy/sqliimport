@@ -1,12 +1,12 @@
 <?php /* #?ini charset="utf-8"?
 
 [ImportSettings]
-AvailableSourceHandlers[]=rssimporthandler
+#AvailableSourceHandlers[]=rssimporthandler
 AvailableSourceHandlers[]=rsslocalimporthandler
 
 [rssimporthandler-HandlerSettings]
 # Indicates if handler is enabled or not. Mandatory. Must be "true" or "false"
-Enabled=false
+Enabled=true
 # Intelligible name
 Name=RSS Handler
 # Class for source handler. Must implement ISQLIImportSourceHandler and extend SQLIImportAbstractSourceHandler
