@@ -6,7 +6,7 @@ AvailableSourceHandlers[]=rsslocalimporthandler
 
 [rssimporthandler-HandlerSettings]
 # Indicates if handler is enabled or not. Mandatory. Must be "true" or "false"
-Enabled=true
+Enabled=false
 # Intelligible name
 Name=RSS Handler
 # Class for source handler. Must implement ISQLIImportSourceHandler and extend SQLIImportAbstractSourceHandler
