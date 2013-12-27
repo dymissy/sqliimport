@@ -34,6 +34,6 @@ DefaultParentNodeID=2
 # StreamTimeout, handler specific. If empty, will take [ImportSettings]/StreamTimeout
 StreamTimeout=
 # Below you can add your own settings for your source handler
-RSSFeed=http://xml.corriereobjects.it/rss/homepage.xml
+RSSFeed=http://dev.simonedamico.com/feedtest.xml
 
 */ ?>
