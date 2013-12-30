@@ -26,3 +26,8 @@ This fork is just for testing purpose. It adds a new source handler class for a 
     
 		php runcronjobs.php sqliimport_run
 
+## File
+
+The example file is available to the following path:
+
+        classes/sourcehandlers/sqlirsslocalimporthandler.php
