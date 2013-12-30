@@ -34,6 +34,7 @@ DefaultParentNodeID=2
 # StreamTimeout, handler specific. If empty, will take [ImportSettings]/StreamTimeout
 StreamTimeout=
 # Below you can add your own settings for your source handler
-RSSFeed=http://dev.simonedamico.com/testimport/feedtest.xml
+#RSSFeed=http://dev.simonedamico.com/testimport/feedtest.xml
+RSSFeed=/home/simoneda/public_html/testimport/feedtest.xml
 
 */ ?>
