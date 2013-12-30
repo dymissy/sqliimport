@@ -5,7 +5,6 @@
     <description>Corriere della sera online</description>
     <copyright>Copyright 2004 - RCS MediaGroup</copyright>
     <language>it-IT</language>
-    <lastBuildDate/>
     <generator>Eidosmedia Méthode</generator>
     <image>
         <title>Corriere della Sera on line versione rss</title>
@@ -30,7 +29,7 @@ Due attentati in meno di 24 ore. Pesante il bilancio: 31 vittime L’escalation 
             http://www.corriere.it/esteri/13_dicembre_30/volgograd-nuova-starge-esplode-bomba-all-interno-un-filobus-10-morti-4e3fc15a-7119-11e3-acd7-0679397fd92a.shtml
         </link>
         <image>/home/simoneda/public_html/testimport/volgograd_sp-2.jpg</image>
-        <attachment>/home/simoneda/public_html/testimport/fromString.pdf</attachment>
+        <file>/home/simoneda/public_html/testimport/fromString.pdf</file>
         <guid isPermaLink="true" from="rss">
             /esteri/13_dicembre_30/volgograd-nuova-starge-esplode-bomba-all-interno-un-filobus-10-morti-4e3fc15a-7119-11e3-acd7-0679397fd92a.shtml
         </guid>
@@ -51,7 +50,7 @@ A Grenoble gli amici e collaboratori da una vitaVettel: «Per me è come un padr
             http://www.corriere.it/sport/13_dicembre_30/schumacher-incidente-aggiornamenti-204381e0-7125-11e3-acd7-0679397fd92a.shtml
         </link>
         <image>/home/simoneda/public_html/testimport/schumi.jpg</image>
-        <attachment>/home/simoneda/public_html/testimport/fromString.pdf</attachment>
+        <file>/home/simoneda/public_html/testimport/fromString.pdf</file>
         <guid isPermaLink="true" from="rss">
             /sport/13_dicembre_30/schumacher-incidente-aggiornamenti-204381e0-7125-11e3-acd7-0679397fd92a.shtml
         </guid>
