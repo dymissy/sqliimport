@@ -1,7 +1,7 @@
 <?php /* #?ini charset="utf-8"?
 
 [ImportSettings]
-#AvailableSourceHandlers[]=rssimporthandler
+AvailableSourceHandlers[]=rssimporthandler
 AvailableSourceHandlers[]=rsslocalimporthandler
 
 [rssimporthandler-HandlerSettings]
@@ -14,7 +14,7 @@ ClassName=SQLIRSSImportHandler
 # Facultative. Indicates whether debug is enabled or not
 Debug=enabled
 # Same as [ImportSettings]/DefaultParentNodeID, but source handler specific
-DefaultParentNodeID=43
+DefaultParentNodeID=2
 # StreamTimeout, handler specific. If empty, will take [ImportSettings]/StreamTimeout
 StreamTimeout=
 # Below you can add your own settings for your source handler
