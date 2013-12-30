@@ -92,6 +92,7 @@ class SQLIRSSLocalImportHandler extends SQLIImportAbstractHandler implements ISQ
 
         //image
         if( isset( $row->image ) && $row->image ) {
+            echo (string)$row->image;
             $content->fields->image = (string)$row->image;
         }
 
