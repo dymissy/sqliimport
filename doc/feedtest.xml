@@ -1,32 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Import Feed Test</title>
-        <link>http://feedtest.com</link>
-        <description>Import Feed Test</description>
-        <language>it-IT</language>
-        <managingEditor>test@feed.com (Simone D'Amico)</managingEditor>
-        <pubDate>Fri, 27 Dec 2013 20:55:44 +0000</pubDate>
-        <lastBuildDate>Fri, 27 Dec 2013 20:55:44 +0000</lastBuildDate>
-        <docs>http://www.rssboard.org/rss-specification</docs>
-        <atom:link href="http://feedtest.com/feed" rel="self" type="application/rss+xml"/>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<channel>
+    <title>Corriere.it</title>
+    <link>http://www.corriere.it/</link>
+    <description>Corriere della sera online</description>
+    <copyright>Copyright 2004 - RCS MediaGroup</copyright>
+    <language>it-IT</language>
+    <lastBuildDate/>
+    <generator>Eidosmedia Méthode</generator>
+    <image>
+        <title>Corriere della Sera on line versione rss</title>
+        <url>http://www.corriere.it/rss/images/logo_small.gif</url>
+        <link>http://www.corriere.it</link>
+        <width>140</width>
+        <height>40</height>
+        <description>Corriere.it versione rss</description>
+    </image>
+    <img src="//secure-it.imrworldwide.com/cgi-bin/m?ci=rcsrss-it&cg=0&si=http%3A//xml.corriereobjects.it/rss/homepage.xml" alt=""/>
+    <item>
+        <title>
+            <![CDATA[
+Volgograd , nuova strage all’alba Bomba sul bus: 14 vittime | Video- foto
+]]>
+        </title>
+        <description>
+            <![CDATA[
+Due attentati in meno di 24 ore. Pesante il bilancio: 31 vittime L’escalation a poche settimane dall’apertura dei giochi di Sochi
+]]>
+        </description>
+        <link from="rss">
+            http://www.corriere.it/esteri/13_dicembre_30/volgograd-nuova-starge-esplode-bomba-all-interno-un-filobus-10-morti-4e3fc15a-7119-11e3-acd7-0679397fd92a.shtml
+        </link>
+        <info1>
+            <thumbimage url="http://images2.corriereobjects.it/methode_image/2013/12/30/Esteri/Foto%20Esteri/volgograd_sp_190x130.jpg"/>
+            <fullimage url="http://images2.corriereobjects.it/methode_image/2013/12/30/Esteri/Foto%20Esteri/volgograd_sp-2.jpg"/>
+        </info1>
+        <dc:creator>
+            <![CDATA[ ]]>
+        </dc:creator>
+        <guid isPermaLink="true" from="rss">
+            /esteri/13_dicembre_30/volgograd-nuova-starge-esplode-bomba-all-interno-un-filobus-10-morti-4e3fc15a-7119-11e3-acd7-0679397fd92a.shtml
+        </guid>
+        <category domain="http://www.corriere.it">Esteri</category>
+        <pubDate>Mon, 30 Dec 2013 10:01:53 +0100</pubDate>
+    </item>
+    <item>
+        <title>
+            <![CDATA[
+Schumi cade sciando: è in coma | foto Alle 11 il nuovo bollettino medico
+]]>
+        </title>
+        <description>
+            <![CDATA[
+A Grenoble gli amici e collaboratori da una vitaVettel: «Per me è come un padre in F1»
+]]>
+        </description>
+        <link from="rss">
+            http://www.corriere.it/sport/13_dicembre_30/schumacher-incidente-aggiornamenti-204381e0-7125-11e3-acd7-0679397fd92a.shtml
+        </link>
+        <info1>
+            <thumbimage url="http://images2.corriereobjects.it/methode_image/2013/12/30/Sport/Foto%20Sport%20-%20Trattate/5fb5a8bc8e70b642d956e96e14fd4f74-004-k54f--401x175@corriere-web-sezioni_190x130.jpg"/>
+            <fullimage url="http://images2.corriereobjects.it/methode_image/2013/12/30/Sport/Foto%20Sport%20-%20Trattate/5fb5a8bc8e70b642d956e96e14fd4f74-004-k54F--401x175@Corriere-Web-Sezioni.jpg"/>
+        </info1>
+        <dc:creator>
+            <![CDATA[ Redazione Online ]]>
+        </dc:creator>
+        <guid isPermaLink="true" from="rss">
+            /sport/13_dicembre_30/schumacher-incidente-aggiornamenti-204381e0-7125-11e3-acd7-0679397fd92a.shtml
+        </guid>
+        <category domain="http://www.corriere.it">Sport</category>
+        <pubDate>Mon, 30 Dec 2013 10:23:45 +0100</pubDate>
+    </item>
 
-        <item>
-            <title>Test 1</title>
-            <link>http://feedtest.com/test1</link>
-            <description>&lt;p&gt;Ça y est, la folie des blogs a fini par me prendre... Finalement c'était inévitable !&lt;/p&gt;</description>
-            <image>http://www.fiaso.net/home/images/stories/copertina%20libro%20bianco%202013(1).jpg</image>
-            <guid>http://feedtest.com/test1</guid>
-            <pubDate>Fri, 27 Dec 2013 20:55:44 +0000</pubDate>
-        </item>
-        <item>
-            <title>Test 2</title>
-            <link>http://feedtest.com/test2</link>
-            <description>&lt;p&gt;Ça y est, la folie des blogs a fini par me prendre... Finalement c'était inévitable !&lt;/p&gt;</description>
-            <image>http://www.fiaso.net/home/images/M_images/buona%20sanit.jpg</image>
-            <guid>http://feedtest.com/test2</guid>
-            <pubDate>Fri, 27 Dec 2013 20:55:44 +0000</pubDate>
-        </item>
-
-    </channel>
+</channel>
 </rss>
