@@ -96,6 +96,12 @@ class SQLIRSSLocalImportHandler extends SQLIImportAbstractHandler implements ISQ
             $content->fields->image = (string)$row->image;
         }
 
+        //attachment
+        if( isset( $row->attachment ) && $row->attachment ) {
+            echo (string)$row->attachment;
+            $content->fields->attachment = (string)$row->attachment;
+        }
+
         // Now publish content
         $content->addLocation( SQLILocation::fromNodeID( $this->handlerConfArray['DefaultParentNodeID'] ) );
         $publisher = SQLIContentPublisher::getInstance();
