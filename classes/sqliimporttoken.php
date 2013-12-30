@@ -62,8 +62,6 @@ class SQLIImportToken extends eZPersistentObject
             'value' => self::IMPORT_STATUS_RUNNING
         );
         $statusCount = parent::count( self::definition(), $conds );
-
-        var_dump($statusCount, $conds);
         
         return $statusCount > 0;
     }
